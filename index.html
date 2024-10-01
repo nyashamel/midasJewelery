@@ -5,9 +5,57 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <title>Midas_Jewelry</title>
 </head>
 <body>
 
+<!--Navigation Bar start-->
+<header>
+    <div class="logo"  style="margin-right: 60px; margin-bottom: 10px" >
+        <Img
+                src="/images/logo/logo2.png"
+                alt="logo"
+                width=160
+                height=58
+                class="w-full dark:hidden">
+
+        <ul class="nav" style="margin-right: 60px">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#popular">Jewels</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="auth-buttons">
+        <a href="signin.html" class="btn-signin">Sign In</a>
+        <a href="signup.html" class="btn-signup">Sign Up</a>
+    </div>
+    <div class="profile">
+        <a href="#" class="menu"><i class="ri-menu-line"></i></a>
+    </div>
+</header>
+<!--Navigation Bar end-->
+
+<!--Home Page-->
+<section class="background-image" id="home">
+    <div class="greeting-page">
+        <h1>Welcome to Midas Jewelery!</h1>
+        <h2>Take a look at all the hot new pieces we have in stock.</h2>
+        <a href="#about"><span>Learn more </span></a>
+    </div>
+</section>
+<section class="about" id="about">
+    <style>
+        .spread-out {
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            line-height: 1.5;
+        }
+    </style>
+    <h1 class="heading"><span>About</span> Us</h1>
 </body>
 </html>
